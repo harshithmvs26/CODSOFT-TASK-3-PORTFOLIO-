@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(120deg, #000000 0%, #434343 100%);
+  color: #eee;
+}
+
+header {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #f6f4f9;
+  color: #1e1e1e;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(135deg, #1e1e1e 0%, #434343 50%, #760dbc 100%);
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eee;
+  padding-right:30px;
+}
+
+.section .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.section .content .text {
+  flex: 1;
+  padding-right: 50px;
+  color: #eee;
+}
+
+.section .content .image {
+  flex: 1;
+  text-align: center;
+}
+
+.section .content .image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: linear-gradient(135deg, #2d2d2d 0%, #6a0dad 100%);
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: #eee;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #f1f0f2;
+}
+
+.contact-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  color: #fbfbfb;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icons a:hover {
+  color: #9a4eff;
+  background-color: #434343;
+}
